@@ -2,8 +2,11 @@
 
 using namespace std;
 
+static int c = 0;
+
 // Fund to compute the fibonacci number of n
 int fibonacci(int n) {
+    c+=1;
     if (n <= 1) {
         return n;
     }
@@ -16,6 +19,7 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
     cout << fibonacci(n) << endl;
+    cout << "Number of recursive calls:" << c << endl;
 
     return 0;
 }
