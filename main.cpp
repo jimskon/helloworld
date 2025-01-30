@@ -3,11 +3,11 @@
 using namespace std;
 
 // Fund to compute the fibonacci number of n
-int fibonacci(int n) {
-    if (n <= 1) {
-        return n;
+int fibonacci(int num) {
+    if (num <= 1) {
+        return num;
     }
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    return fibonacci(num - 1) + fibonacci(num - 2);
 }
 
 int main() {
