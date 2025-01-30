@@ -1,3 +1,4 @@
+// A crazy program created by James Skon, Kenyon College, 2025
 #include <iostream>
 
 using namespace std;
