@@ -2,10 +2,10 @@
 
 using namespace std;
 
-static int c = 0;
+static long long c = 0;
 
 // Fund to compute the fibonacci number of n
-int fibonacci(int n) {
+int fibonacci(long long n) {
     c+=1;
     if (n <= 1) {
         return n;
@@ -15,7 +15,7 @@ int fibonacci(int n) {
 
 int main() {
     std::cout << "Hello World!" << std::endl;
-    int n;
+    long long n;
     cout << "Enter a number: ";
     cin >> n;
     cout << fibonacci(n) << endl;
